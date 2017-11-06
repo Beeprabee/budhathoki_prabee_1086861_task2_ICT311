@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/new_diary"
+
+        android:title="@string/new_diary"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/user_settings"
+
+        android:title="@string/user_settings"
+        app:showAsAction="ifRoom|withText"/>
+
+</menu>
